@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  // This defines what 1rem is
+  /* font-size: 10px; */
+
+  // font-size: 62.5%;
+  font-size: 100%;
+
+  // @include respond(custom1) {
+  //   font-size: 58%;
+  // }
+  //
+  // @include respond(tab-land) {
+  //   font-size: 56.25%;
+  // }
+  //
+  // @include respond(tab-port) {
+  //   font-size: 50%;
+  // }
+  //
+  // @include respond(phone) {
+  //   font-size: 30%;
+  // }
+}
+
+body {
+  background-color: $background-color;
+  // margin-top: 16.8px;
+  // margin-bottom: 0px;
+  // margin-left: 10px;
+  // margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
